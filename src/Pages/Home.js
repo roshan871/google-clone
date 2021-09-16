@@ -3,6 +3,9 @@ import './Home.css'
 import {Link} from 'react-router-dom';
 import AppsIcon from '@material-ui/icons/Apps';
 import { Avatar } from '@material-ui/core';
+import Search from './Search';
+
+
 function Home() {
     return (
         <div className='home'>
@@ -17,12 +20,16 @@ function Home() {
                     <Link to='/images'>Images</Link>
                     <AppsIcon />
                     <Avatar />
-                    
-                    {/* Avatart */}
-                    {/* Icon */}
                 </div>
             </div>
-            <div className='home__body'></div>
+            <div className='home__body'>
+                <img
+                 src='https://www.solopress.com/blog/wp-content/uploads/2015/09/google-new-logo.jpeg'
+                 alt='gogle-log' />
+                  <div className='home__inputContainer'>
+                     <Search />
+                  </div>
+            </div>
         </div>
     )
 }

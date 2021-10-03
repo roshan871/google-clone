@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Pages/Home'
 import { HashRouter as Router, Switch, Route} from "react-router-dom";
+import SearchPage from './Pages/SearchPage';
 function App() {
   return (
     //BEM
@@ -8,7 +9,7 @@ function App() {
     <Router>
       <Switch>
           <Route path='/search'>
-            <h1>This is the search page</h1>
+            <SearchPage />
           </Route>
           <Route path='/'>
             <Home />

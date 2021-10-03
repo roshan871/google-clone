@@ -27,7 +27,7 @@ function Home() {
                  src='https://www.solopress.com/blog/wp-content/uploads/2015/09/google-new-logo.jpeg'
                  alt='gogle-log' />
                   <div className='home__inputContainer'>
-                     <Search />
+                     <Search hideButtons />
                   </div>
             </div>
         </div>

@@ -95,4 +95,7 @@
   .searchPage__options {
     margin-left: 10px;
   }
+  .searchPage__results {
+    margin-left: 25px;
+  }
 }

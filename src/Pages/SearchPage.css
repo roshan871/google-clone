@@ -90,3 +90,9 @@
 .searchPage__resultSnippet {
   margin-top: 10px;
 }
+
+@media (max-width: 720px) {
+  .searchPage__options {
+    margin-left: 10px;
+  }
+}
